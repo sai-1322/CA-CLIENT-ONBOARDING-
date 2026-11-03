@@ -1,0 +1,343 @@
+{
+  "sample_aadhaar_rohan.png": {
+    "lines": [
+      {
+        "text": "GOVERNMENT OF INDIA (SAMPLE)",
+        "conf": 0.962
+      },
+      {
+        "text": "Name: ROHAN MEHTA",
+        "conf": 0.957
+      },
+      {
+        "text": "DOB: 01/01/1990",
+        "conf": 0.954
+      },
+      {
+        "text": "Male",
+        "conf": 0.96
+      },
+      {
+        "text": "Aadhaar: 1234 5678 9012",
+        "conf": 0.951
+      },
+      {
+        "text": "SAMPLE - DUMMY DATA - NOT A REAL DOCUMENT",
+        "conf": 0.945
+      }
+    ]
+  },
+  "sample_bank_statement_sunita.pdf": {
+    "lines": [
+      {
+        "text": "SAMPLE BANK - ACCOUNT STATEMENT (DUMMY)",
+        "conf": 0.947
+      },
+      {
+        "text": "Account holder: SUNITA TRADERS A/c: XXXXXX1234",
+        "conf": 0.826
+      },
+      {
+        "text": "01-Oct",
+        "conf": 0.921
+      },
+      {
+        "text": "03-Oct",
+        "conf": 0.918
+      },
+      {
+        "text": "07-Oct",
+        "conf": 0.912
+      },
+      {
+        "text": "15-Oct",
+        "conf": 0.902
+      },
+      {
+        "text": "28-Oct",
+        "conf": 0.927
+      },
+      {
+        "text": "SAMPLE - DUMMY DATA - NOT A REAL DOCUMENT",
+        "conf": 0.941
+      },
+      {
+        "text": "Opening balance",
+        "conf": 0.962
+      },
+      {
+        "text": "UPI Customer A",
+        "conf": 0.962
+      },
+      {
+        "text": "Rent 30,000",
+        "conf": 0.968
+      },
+      {
+        "text": "NEFT Supplier B 12,000",
+        "conf": 0.928
+      },
+      {
+        "text": "Closing balance",
+        "conf": 0.962
+      },
+      {
+        "text": "25,000",
+        "conf": 0.965
+      },
+      {
+        "text": "1,00,000",
+        "conf": 0.907
+      },
+      {
+        "text": "1,25,000",
+        "conf": 0.923
+      },
+      {
+        "text": "95,000",
+        "conf": 0.955
+      },
+      {
+        "text": "83,000",
+        "conf": 0.968
+      },
+      {
+        "text": "83,000",
+        "conf": 0.965
+      }
+    ]
+  },
+  "sample_gst_sunita.png": {
+    "lines": [
+      {
+        "text": "GST REGISTRATION CERTIFICATE (SAMPLE)",
+        "conf": 0.964
+      },
+      {
+        "text": "Legal name: SUNITA TRADERS",
+        "conf": 0.965
+      },
+      {
+        "text": "GSTIN: 27ABCDE1234F1Z5",
+        "conf": 0.85
+      },
+      {
+        "text": "State: Maharashtra",
+        "conf": 0.965
+      },
+      {
+        "text": "Type: Regular",
+        "conf": 0.965
+      },
+      {
+        "text": "Date of registration: 01/04/2024",
+        "conf": 0.967
+      },
+      {
+        "text": "SAMPLE - DUMMY DATA - NOT A REAL DOCUMENT",
+        "conf": 0.948
+      }
+    ]
+  },
+  "sample_pan_amit_invalid.png": {
+    "lines": [
+      {
+        "text": "INCOME TAX DEPARTMENT (SAMPLE)",
+        "conf": 0.964
+      },
+      {
+        "text": "Name: AMIT SHAH",
+        "conf": 0.933
+      },
+      {
+        "text": "Father: KIRAN SHAH",
+        "conf": 0.964
+      },
+      {
+        "text": "DOB: 15/05/1985",
+        "conf": 0.955
+      },
+      {
+        "text": "PAN: ABCDE12345",
+        "conf": 0.923
+      },
+      {
+        "text": "SAMPLE - DUMMY DATA - NOT A REAL DOCUMENT",
+        "conf": 0.943
+      }
+    ]
+  },
+  "sample_pan_rohan.png": {
+    "lines": [
+      {
+        "text": "INCOME TAX DEPARTMENT (SAMPLE)",
+        "conf": 0.964
+      },
+      {
+        "text": "Name: ROHAN MEHTA",
+        "conf": 0.965
+      },
+      {
+        "text": "Father: SURESH MEHTA",
+        "conf": 0.957
+      },
+      {
+        "text": "DOB: 01/01/1990",
+        "conf": 0.966
+      },
+      {
+        "text": "PAN: ABCDE1234F",
+        "conf": 0.916
+      },
+      {
+        "text": "SAMPLE - DUMMY DATA - NOT A REAL DOCUMENT",
+        "conf": 0.943
+      }
+    ]
+  },
+  "sample_pan_rohan_blurry.png": {
+    "lines": [],
+    "enhanced_lines": [
+      {
+        "text": "COME TAR OOP AATVENT (AAU)",
+        "conf": 0.33
+      },
+      {
+        "text": "here AC Peen ere",
+        "conf": 0.156
+      },
+      {
+        "text": "ther DPE were",
+        "conf": 0.349
+      },
+      {
+        "text": "Com freer",
+        "conf": 0.261
+      },
+      {
+        "text": "Pan CORT",
+        "conf": 0.396
+      },
+      {
+        "text": "\u2014s, oo hee eee ee oe",
+        "conf": 0.184
+      }
+    ]
+  },
+  "sample_wrong_document_electricity_bill.png": {
+    "lines": [
+      {
+        "text": "ELECTRICITY BILL (SAMPLE)",
+        "conf": 0.953
+      },
+      {
+        "text": "Consumer: ROHAN MEHTA",
+        "conf": 0.952
+      },
+      {
+        "text": "Units: 240",
+        "conf": 0.967
+      },
+      {
+        "text": "Amount: Rs 1,980",
+        "conf": 0.964
+      },
+      {
+        "text": "SAMPLE - DUMMY DATA - NOT A REAL DOCUMENT",
+        "conf": 0.95
+      }
+    ]
+  },
+  "unseen_aadhaar_aadhaar_no.png": {
+    "lines": [
+      {
+        "text": "GOVERNMENT OF INDIA",
+        "conf": 0.96
+      },
+      {
+        "text": "Aadhaar No. Card",
+        "conf": 0.949
+      },
+      {
+        "text": "Name: Priya Nair",
+        "conf": 0.96
+      },
+      {
+        "text": "Year of Birth: 1991",
+        "conf": 0.964
+      },
+      {
+        "text": "Female",
+        "conf": 0.962
+      },
+      {
+        "text": "Aadhaar No.: 4321 0987 6548",
+        "conf": 0.945
+      }
+    ]
+  },
+  "unseen_bank_name_of_account_holder.png": {
+    "lines": [
+      {
+        "text": "Account Statement",
+        "conf": 0.964
+      },
+      {
+        "text": "Name of account holder: Nair Enterprises",
+        "conf": 0.956
+      },
+      {
+        "text": "Account No.: XXXXXX7788",
+        "conf": 0.912
+      },
+      {
+        "text": "Period: Oct 2026",
+        "conf": 0.966
+      }
+    ]
+  },
+  "unseen_gst_gstin_no.png": {
+    "lines": [
+      {
+        "text": "GST Registration Certificate",
+        "conf": 0.962
+      },
+      {
+        "text": "Legal Name: Nair Enterprises",
+        "conf": 0.964
+      },
+      {
+        "text": "GSTIN No.: 29BCDPN5678K1ZV",
+        "conf": 0.892
+      },
+      {
+        "text": "Registration Date: 01/07/2017",
+        "conf": 0.961
+      }
+    ]
+  },
+  "unseen_pan_permanent_account_number.png": {
+    "lines": [
+      {
+        "text": "INCOME TAX DEPARTMENT",
+        "conf": 0.962
+      },
+      {
+        "text": "Permanent Account Number Card",
+        "conf": 0.964
+      },
+      {
+        "text": "Name: Priya Nair",
+        "conf": 0.96
+      },
+      {
+        "text": "PAN No.: BCDPN5678K",
+        "conf": 0.921
+      },
+      {
+        "text": "Date of Birth: 14/03/1991",
+        "conf": 0.963
+      }
+    ]
+  }
+}

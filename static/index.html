@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Client Onboarding</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">📋 Client Onboarding <span class="tag">demo · dummy data · nothing is sent</span></div>
+    <label class="staffbox">Your name (staff):
+      <input id="staff-name" type="text" placeholder="e.g. Priya" autocomplete="off">
+    </label>
+  </header>
+
+  <div class="layout">
+    <nav class="sidebar">
+      <a href="#dashboard" data-nav="dashboard">Dashboard</a>
+      <a href="#examples" data-nav="examples">Examples</a>
+      <a href="#intake" data-nav="intake">Intake</a>
+      <a href="#clients" data-nav="clients">Clients</a>
+      <a href="#review" data-nav="review">Review queue</a>
+      <a href="#messages" data-nav="messages">Messages</a>
+      <a href="#outbox" data-nav="outbox">Outbox</a>
+      <a href="#how" data-nav="how">How it works</a>
+    </nav>
+    <main id="main" aria-live="polite">
+      <p class="muted">Loading…</p>
+    </main>
+  </div>
+
+  <div id="toast" class="toast" role="status" hidden></div>
+  <script src="/app.js"></script>
+</body>
+</html>

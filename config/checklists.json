@@ -1,0 +1,38 @@
+{
+  "documents": {
+    "pan": "PAN card",
+    "aadhaar": "Aadhaar card",
+    "gst_certificate": "GST registration certificate",
+    "bank_statement": "Bank statement",
+    "other": "Other document"
+  },
+  "services": {
+    "ITR": {
+      "required": [
+        "pan",
+        "aadhaar",
+        "bank_statement"
+      ],
+      "optional": []
+    },
+    "GST": {
+      "required": [
+        "pan",
+        "aadhaar",
+        "gst_certificate",
+        "bank_statement"
+      ],
+      "optional": []
+    },
+    "Audit": {
+      "required": [
+        "pan",
+        "aadhaar",
+        "bank_statement"
+      ],
+      "optional": [
+        "gst_certificate"
+      ]
+    }
+  }
+}

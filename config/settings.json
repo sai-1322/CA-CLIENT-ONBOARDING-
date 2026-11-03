@@ -1,0 +1,10 @@
+{
+  "firm_name": "Demo CA Office",
+  "blur_threshold": 100,
+  "min_field_confidence": 0.85,
+  "name_match_threshold": 0.8,
+  "reminder_days": 3,
+  "ocr_engine": "auto",
+  "reminder_check_hours": 24,
+  "default_country_code": "91"
+}
