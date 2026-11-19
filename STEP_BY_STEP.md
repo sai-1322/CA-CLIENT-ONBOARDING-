@@ -57,7 +57,8 @@ Expected: `106 passed`. If a test fails, do not continue. Send me the test name.
 
 ## Part 3: Start the app
 
-**Step 8. Start it.** Click **▶ Run** at the top right of `run.py`, or type:
+**Step 8. Start it.** Easiest: double-click `start_windows.bat` (Windows) or `start_mac_linux.command` (Mac). Keep the window open.
+Or click **▶ Run** at the top right of `run.py`, or type:
 ```
 python run.py
 ```

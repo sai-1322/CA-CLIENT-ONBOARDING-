@@ -24,6 +24,13 @@ All sample data is dummy data. Nothing leaves your computer.
 
 ## 2. Run it
 
+**Easiest (no typing):**
+- **Windows:** double-click `start_windows.bat`.
+- **Mac:** double-click `start_mac_linux.command` (if macOS blocks it, right-click it and choose Open).
+- **Linux:** run `./start_mac_linux.command` from a terminal.
+
+The first start installs the parts it needs, which takes a few minutes. After that the app opens in your browser at http://127.0.0.1:8000. Keep the window open while you use it, and close it to stop the app. The steps below do the same thing by hand.
+
 ### Visual Studio Code (recommended)
 
 1. Install Python from python.org and tick **Add python.exe to PATH**. Install VS Code and its **Python** extension (Microsoft).
